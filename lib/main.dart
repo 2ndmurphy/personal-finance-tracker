@@ -22,6 +22,8 @@ class MyApp extends StatelessWidget {
 }
 
 class StatisticsDashboard extends StatelessWidget {
+  const StatisticsDashboard({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Container(
